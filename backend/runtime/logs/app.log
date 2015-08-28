@@ -1,0 +1,346 @@
+2015-08-28 13:32:23 [127.0.0.1][1][pcld0hr74nvjr16078k37igsb3][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#2 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#3 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\!Development\to-do.sitemic.com\backend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2015-08-28 13:32:23 [127.0.0.1][1][pcld0hr74nvjr16078k37igsb3][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'TUNvZ1F1cFIJdiQdOjcDYyE7HwNhADg8HDEbFwYhPhQFDwE0Oz9CAQ=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '4wNi4vfVx0sOTMm50qbu'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'g5-collapsed' => '{\"particles.branding.\":true,\"particles.copyright.\":true,\"particles.custom.\":true,\"particles.date.\":true,\"particles.logo.\":true,\"particles.menu.\":true,\"particles.mobile-menu.\":true,\"particles.sample.\":true,\"particles.social.\":true,\"particles.totop.\":true,\"particles.module.\":true,\"particles.spacer.\":true,\"particles.pagecontent.\":true,\"particles.position.\":true,\"particles.system-messages.\":true,\"particles.analytics.\":true,\"particles.assets.\":true}'
+    '29418671080f04319da3366376a2b767' => 'qrv79oqf7upvg8mp0ll8hkd1u5'
+    '_csrf' => 'ffca4d7b05fe1460d8b6a1438f8053187b934fcf423d0c40d890279774a38c86a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3jAELNonNGVT0N8p6Z7nJjNTWAdq7rxS\";}'
+    'PHPSESSID' => 'pcld0hr74nvjr16078k37igsb3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.to-do.sitemic.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '211'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://dev.to-do.sitemic.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.174'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://dev.to-do.sitemic.com/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'g5-collapsed={\"particles.branding.\":true,\"particles.copyright.\":true,\"particles.custom.\":true,\"particles.date.\":true,\"particles.logo.\":true,\"particles.menu.\":true,\"particles.mobile-menu.\":true,\"particles.sample.\":true,\"particles.social.\":true,\"particles.totop.\":true,\"particles.module.\":true,\"particles.spacer.\":true,\"particles.pagecontent.\":true,\"particles.position.\":true,\"particles.system-messages.\":true,\"particles.analytics.\":true,\"particles.assets.\":true}; 29418671080f04319da3366376a2b767=qrv79oqf7upvg8mp0ll8hkd1u5; _csrf=ffca4d7b05fe1460d8b6a1438f8053187b934fcf423d0c40d890279774a38c86a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223jAELNonNGVT0N8p6Z7nJjNTWAdq7rxS%22%3B%7D; PHPSESSID=pcld0hr74nvjr16078k37igsb3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at dev.to-do.sitemic.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'dev.to-do.sitemic.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/!Development/to-do.sitemic.com'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/!Development/to-do.sitemic.com'
+    'SERVER_ADMIN' => 'webmaster@dummy-host.example.com'
+    'SCRIPT_FILENAME' => 'D:/!Development/to-do.sitemic.com/backend/web/index.php'
+    'REMOTE_PORT' => '56457'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440761543.397
+    'REQUEST_TIME' => 1440761543
+]
+2015-08-28 13:32:24 [127.0.0.1][1][pcld0hr74nvjr16078k37igsb3][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\BadRequestHttpException))
+#7 {main}
+2015-08-28 13:32:23 [127.0.0.1][1][pcld0hr74nvjr16078k37igsb3][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'TUNvZ1F1cFIJdiQdOjcDYyE7HwNhADg8HDEbFwYhPhQFDwE0Oz9CAQ=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '4wNi4vfVx0sOTMm50qbu'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'g5-collapsed' => '{\"particles.branding.\":true,\"particles.copyright.\":true,\"particles.custom.\":true,\"particles.date.\":true,\"particles.logo.\":true,\"particles.menu.\":true,\"particles.mobile-menu.\":true,\"particles.sample.\":true,\"particles.social.\":true,\"particles.totop.\":true,\"particles.module.\":true,\"particles.spacer.\":true,\"particles.pagecontent.\":true,\"particles.position.\":true,\"particles.system-messages.\":true,\"particles.analytics.\":true,\"particles.assets.\":true}'
+    '29418671080f04319da3366376a2b767' => 'qrv79oqf7upvg8mp0ll8hkd1u5'
+    '_csrf' => 'ffca4d7b05fe1460d8b6a1438f8053187b934fcf423d0c40d890279774a38c86a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3jAELNonNGVT0N8p6Z7nJjNTWAdq7rxS\";}'
+    'PHPSESSID' => 'pcld0hr74nvjr16078k37igsb3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.to-do.sitemic.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '211'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://dev.to-do.sitemic.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.174'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://dev.to-do.sitemic.com/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'g5-collapsed={\"particles.branding.\":true,\"particles.copyright.\":true,\"particles.custom.\":true,\"particles.date.\":true,\"particles.logo.\":true,\"particles.menu.\":true,\"particles.mobile-menu.\":true,\"particles.sample.\":true,\"particles.social.\":true,\"particles.totop.\":true,\"particles.module.\":true,\"particles.spacer.\":true,\"particles.pagecontent.\":true,\"particles.position.\":true,\"particles.system-messages.\":true,\"particles.analytics.\":true,\"particles.assets.\":true}; 29418671080f04319da3366376a2b767=qrv79oqf7upvg8mp0ll8hkd1u5; _csrf=ffca4d7b05fe1460d8b6a1438f8053187b934fcf423d0c40d890279774a38c86a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223jAELNonNGVT0N8p6Z7nJjNTWAdq7rxS%22%3B%7D; PHPSESSID=pcld0hr74nvjr16078k37igsb3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at dev.to-do.sitemic.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'dev.to-do.sitemic.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/!Development/to-do.sitemic.com'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/!Development/to-do.sitemic.com'
+    'SERVER_ADMIN' => 'webmaster@dummy-host.example.com'
+    'SCRIPT_FILENAME' => 'D:/!Development/to-do.sitemic.com/backend/web/index.php'
+    'REMOTE_PORT' => '56457'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440761543.397
+    'REQUEST_TIME' => 1440761543
+]
+2015-08-28 13:32:27 [127.0.0.1][1][pcld0hr74nvjr16078k37igsb3][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#2 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#3 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\!Development\to-do.sitemic.com\backend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2015-08-28 13:32:27 [127.0.0.1][1][pcld0hr74nvjr16078k37igsb3][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'TUNvZ1F1cFIJdiQdOjcDYyE7HwNhADg8HDEbFwYhPhQFDwE0Oz9CAQ=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '4wNi4vfVx0sOTMm50qbu'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'g5-collapsed' => '{\"particles.branding.\":true,\"particles.copyright.\":true,\"particles.custom.\":true,\"particles.date.\":true,\"particles.logo.\":true,\"particles.menu.\":true,\"particles.mobile-menu.\":true,\"particles.sample.\":true,\"particles.social.\":true,\"particles.totop.\":true,\"particles.module.\":true,\"particles.spacer.\":true,\"particles.pagecontent.\":true,\"particles.position.\":true,\"particles.system-messages.\":true,\"particles.analytics.\":true,\"particles.assets.\":true}'
+    '29418671080f04319da3366376a2b767' => 'qrv79oqf7upvg8mp0ll8hkd1u5'
+    'PHPSESSID' => 'pcld0hr74nvjr16078k37igsb3'
+    '_csrf' => 'c78232f43992ee8c0b45f7b9e8838b834de436ffe50c79e0b144a80ecbbdec3fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vgLTo-sYTCdTBBlB-M_dObKXf7OcWZK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.to-do.sitemic.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '211'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://dev.to-do.sitemic.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.174'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://dev.to-do.sitemic.com/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'g5-collapsed={\"particles.branding.\":true,\"particles.copyright.\":true,\"particles.custom.\":true,\"particles.date.\":true,\"particles.logo.\":true,\"particles.menu.\":true,\"particles.mobile-menu.\":true,\"particles.sample.\":true,\"particles.social.\":true,\"particles.totop.\":true,\"particles.module.\":true,\"particles.spacer.\":true,\"particles.pagecontent.\":true,\"particles.position.\":true,\"particles.system-messages.\":true,\"particles.analytics.\":true,\"particles.assets.\":true}; 29418671080f04319da3366376a2b767=qrv79oqf7upvg8mp0ll8hkd1u5; PHPSESSID=pcld0hr74nvjr16078k37igsb3; _csrf=c78232f43992ee8c0b45f7b9e8838b834de436ffe50c79e0b144a80ecbbdec3fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vgLTo-sYTCdTBBlB-M_dObKXf7OcWZK%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at dev.to-do.sitemic.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'dev.to-do.sitemic.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/!Development/to-do.sitemic.com'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/!Development/to-do.sitemic.com'
+    'SERVER_ADMIN' => 'webmaster@dummy-host.example.com'
+    'SCRIPT_FILENAME' => 'D:/!Development/to-do.sitemic.com/backend/web/index.php'
+    'REMOTE_PORT' => '56462'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440761547.123
+    'REQUEST_TIME' => 1440761547
+]
+2015-08-28 13:32:27 [127.0.0.1][1][pcld0hr74nvjr16078k37igsb3][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'PDOException' with message 'You cannot serialize or unserialize PDO instances' 
+
+in D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 [internal function]: PDO->__sleep()
+#1 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#2 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#3 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#4 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#5 D:\!Development\to-do.sitemic.com\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#6 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\BadRequestHttpException))
+#7 {main}
+2015-08-28 13:32:27 [127.0.0.1][1][pcld0hr74nvjr16078k37igsb3][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'TUNvZ1F1cFIJdiQdOjcDYyE7HwNhADg8HDEbFwYhPhQFDwE0Oz9CAQ=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => '4wNi4vfVx0sOTMm50qbu'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'g5-collapsed' => '{\"particles.branding.\":true,\"particles.copyright.\":true,\"particles.custom.\":true,\"particles.date.\":true,\"particles.logo.\":true,\"particles.menu.\":true,\"particles.mobile-menu.\":true,\"particles.sample.\":true,\"particles.social.\":true,\"particles.totop.\":true,\"particles.module.\":true,\"particles.spacer.\":true,\"particles.pagecontent.\":true,\"particles.position.\":true,\"particles.system-messages.\":true,\"particles.analytics.\":true,\"particles.assets.\":true}'
+    '29418671080f04319da3366376a2b767' => 'qrv79oqf7upvg8mp0ll8hkd1u5'
+    'PHPSESSID' => 'pcld0hr74nvjr16078k37igsb3'
+    '_csrf' => 'c78232f43992ee8c0b45f7b9e8838b834de436ffe50c79e0b144a80ecbbdec3fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vgLTo-sYTCdTBBlB-M_dObKXf7OcWZK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'dev.to-do.sitemic.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '211'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://dev.to-do.sitemic.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.174'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://dev.to-do.sitemic.com/backend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, lzma'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,uk;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'g5-collapsed={\"particles.branding.\":true,\"particles.copyright.\":true,\"particles.custom.\":true,\"particles.date.\":true,\"particles.logo.\":true,\"particles.menu.\":true,\"particles.mobile-menu.\":true,\"particles.sample.\":true,\"particles.social.\":true,\"particles.totop.\":true,\"particles.module.\":true,\"particles.spacer.\":true,\"particles.pagecontent.\":true,\"particles.position.\":true,\"particles.system-messages.\":true,\"particles.analytics.\":true,\"particles.assets.\":true}; 29418671080f04319da3366376a2b767=qrv79oqf7upvg8mp0ll8hkd1u5; PHPSESSID=pcld0hr74nvjr16078k37igsb3; _csrf=c78232f43992ee8c0b45f7b9e8838b834de436ffe50c79e0b144a80ecbbdec3fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vgLTo-sYTCdTBBlB-M_dObKXf7OcWZK%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files (x86)\\AMD\\ATI.ACE\\Core-Static'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8 Server at dev.to-do.sitemic.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8'
+    'SERVER_NAME' => 'dev.to-do.sitemic.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/!Development/to-do.sitemic.com'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/!Development/to-do.sitemic.com'
+    'SERVER_ADMIN' => 'webmaster@dummy-host.example.com'
+    'SCRIPT_FILENAME' => 'D:/!Development/to-do.sitemic.com/backend/web/index.php'
+    'REMOTE_PORT' => '56462'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1440761547.123
+    'REQUEST_TIME' => 1440761547
+]
